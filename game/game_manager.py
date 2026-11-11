@@ -1,6 +1,6 @@
-from board import create_board, cell_selection, check_win
-from display import display_board
-from user_input import user_num_input
+from game.board import create_board, cell_selection, check_win
+from game.display import display_board
+from game.user_input import user_num_input
 
 def run_game():
     the_board = create_board()

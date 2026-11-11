@@ -1,4 +1,4 @@
-from game_manager import run_game
+from game.game_manager import run_game
 def main():
     run_game()
 
