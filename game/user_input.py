@@ -1,4 +1,4 @@
-from validation import is_empty, is_in_range, is_positive_number
+from game.validation import is_empty, is_in_range, is_positive_number
 def user_num_input(msg, the_board):
     validate = False
     cell_input = ""
